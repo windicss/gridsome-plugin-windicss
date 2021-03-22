@@ -9,6 +9,7 @@ function WindiPlugin(api, options) {
         '.git',
         'dist',
         '.cache',
+        '.temp',
         '*.template.html',
         'app.html'
       ],

@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-windicss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Windi CSS for Gridsome",
   "main": "gridsome.server.js",
   "files": [

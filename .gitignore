@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+
+# Only keep yarn.lock in the root
+*/**/yarn.lock
+
+# Logs
+*.log
+
+
+.cache
+
+# Dist folders
+dist
+
+# Coverage reports
+coverage
+
+# VSCode
+.vscode
+
+# Intellij idea
+*.iml
+.idea
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.env

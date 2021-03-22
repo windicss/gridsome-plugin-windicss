@@ -1,0 +1,30 @@
+{
+  "name": "gridsome-plugin-windicss",
+  "version": "0.1.0",
+  "description": "Windi CSS for Gridsome",
+  "main": "gridsome.server.js",
+  "files": [
+    "gridsome.client.js",
+    "gridsome.server.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/windicss/gridsome-plugin-windicss.git"
+  },
+  "keywords": [
+    "windi",
+    "gridsome",
+    "gridsome-plugin",
+    "windicss"
+  ],
+  "author": "Harlan Wilton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/windicss/gridsome-plugin-windicss/issues"
+  },
+  "homepage": "https://github.com/windicss/gridsome-plugin-windicss#readme",
+  "dependencies": {
+    "defu": "^3.2.2",
+    "windicss-webpack-plugin": "^0.2.6"
+  }
+}

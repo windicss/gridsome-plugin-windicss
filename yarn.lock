@@ -215,10 +215,10 @@
   dependencies:
     "@types/node" "*"
 
-"@windicss/plugin-utils@0.10.4":
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.10.4.tgz#ed9163b09e030f7358cc4742b1f2b6c92d084d5d"
-  integrity sha512-jQu69qzA56Lv18OK8U4mUTDV17st4EdPawQuaRG2VNK+ZEQWYsMNnqGxhzDTl/NhWTGCcTb3D6mlFPNo0QDOFg==
+"@windicss/plugin-utils@0.11.2":
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.11.2.tgz#989a5db170fb22c53804c3f67d1ea9da0fd91a79"
+  integrity sha512-Kq9X0/INSOYzBHO/dgOJx3v2U/F+5/bv9IMCW/ABDLwyZbY1fUuGuHgO5e0CHL79F/zTpxxSv+fAAVyiKAY1Eg==
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
@@ -226,7 +226,7 @@
     micromatch "^4.0.2"
     pirates "^4.0.1"
     sucrase "^3.17.1"
-    windicss "^2.5.7"
+    windicss "^2.5.8"
 
 ansi-align@^3.0.0:
   version "3.0.0"
@@ -547,14 +547,14 @@ crypto-random-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
-debug@4.3.1, debug@^4.3.1:
+debug@4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
   dependencies:
     ms "2.1.2"
 
-debug@^4.3.2:
+debug@^4.3.1, debug@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
@@ -2079,12 +2079,12 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-windicss-webpack-plugin@^0.2.9:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/windicss-webpack-plugin/-/windicss-webpack-plugin-0.2.9.tgz#fc5fbcacd1cd1ccb7fb192aaee9e89cbf2979b35"
-  integrity sha512-k5fyh8kc0RsPolzRl6dAbtXB6WI61ohZ4irtGEjVtbjSiYtCNgcINDebJ9PazXznwR0nHYAGx9qzMTCk8f92tQ==
+windicss-webpack-plugin@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/windicss-webpack-plugin/-/windicss-webpack-plugin-0.3.2.tgz#1b213793657939b0b3b261c31d1888977fdee521"
+  integrity sha512-5nJMLi/CX6xK8vfaIZ3CpEGk6fPLt03u8E+8iNMGDHFa3apH9BhiV42jxOwVI6jfTPJi5sVd0EyfH5vBy7pQyg==
   dependencies:
-    "@windicss/plugin-utils" "0.10.4"
+    "@windicss/plugin-utils" "0.11.2"
     debug "^4.3.1"
     loader-utils "^2.0.0"
     magic-string "^0.25.7"
@@ -2092,7 +2092,7 @@ windicss-webpack-plugin@^0.2.9:
     webpack-virtual-modules "^0.4.2"
     windicss "^2.5.8"
 
-windicss@^2.5.7, windicss@^2.5.8:
+windicss@^2.5.8:
   version "2.5.8"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.8.tgz#254980044de3031276062b90cfce53c13ee489bf"
   integrity sha512-zHkozdIqv1YTIGHBOHeFGsuZVTN5yAMz6FW5Bp8im9JZxSRZLOLKdJB0K75SL13iLHKXHrC1ukwJjjL8CohrUw==

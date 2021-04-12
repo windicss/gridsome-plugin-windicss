@@ -559,14 +559,14 @@ crypto-random-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
-debug@4.3.1, debug@^4.3.1:
+debug@4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
   dependencies:
     ms "2.1.2"
 
-debug@^4.3.2:
+debug@^4.3.1, debug@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
@@ -1344,17 +1344,17 @@ micromatch@^4.0.2:
     braces "^3.0.1"
     picomatch "^2.0.5"
 
-mime-db@1.46.0:
-  version "1.46.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.46.0.tgz#6267748a7f799594de3cbc8cde91def349661cee"
-  integrity sha512-svXaP8UQRZ5K7or+ZmfNhg2xX3yKDMUzqadsSqi4NCH/KomcH75MAMYAGVlvXn4+b/xOPhS3I2uHKRUzvjY7BQ==
+mime-db@1.47.0:
+  version "1.47.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.47.0.tgz#8cb313e59965d3c05cfbf898915a267af46a335c"
+  integrity sha512-QBmA/G2y+IfeS4oktet3qRZ+P5kPhCKRXxXnQEudYqUaEioAU1/Lq2us3D/t1Jfo4hE9REQPrbB7K5sOczJVIw==
 
-mime-types@2.1.29, mime-types@^2.1.12:
-  version "2.1.29"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.29.tgz#1d4ab77da64b91f5f72489df29236563754bb1b2"
-  integrity sha512-Y/jMt/S5sR9OaqteJtslsFZKWOIIqMACsJSiHghlCAyhf7jfVYjKBmLiX8OgpWeW+fjJ2b+Az69aPFPkUOY6xQ==
+mime-types@2.1.30, mime-types@^2.1.12:
+  version "2.1.30"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.30.tgz#6e7be8b4c479825f85ed6326695db73f9305d62d"
+  integrity sha512-crmjA4bLtR8m9qLpHvgxSChT+XoSlZi8J4n/aIdn3z92e/U47Z0V/yl+Wh9W046GgFVAmoNR/fmdbZYcSSIUeg==
   dependencies:
-    mime-db "1.46.0"
+    mime-db "1.47.0"
 
 mimic-fn@^2.1.0:
   version "2.1.0"
@@ -1677,9 +1677,9 @@ registry-url@^5.0.0:
     rc "^1.2.8"
 
 release-it@^14.5.1:
-  version "14.5.1"
-  resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.5.1.tgz#79c971f84bb827794a7ddef0b6209bbb5e978ff8"
-  integrity sha512-ivbMbYEk4E1RoV3DmWn8T37sjnCx35kwiHDSgfphDr0F8A5zbJCj4ZLZmDseE9sQi9ZjhXTN1webBLW5YbGxNg==
+  version "14.6.1"
+  resolved "https://registry.yarnpkg.com/release-it/-/release-it-14.6.1.tgz#a04623312d67886b37b8a6d298844ee3e0c7150a"
+  integrity sha512-noBho2997G3yrm6YvdLJj4Ua2SCFOU7ajCqtvteI3DZtpM1IhiyXSgcn2Q5irq8lTNK0it4eiNq9TSrAWNYDkA==
   dependencies:
     "@iarna/toml" "2.2.5"
     "@octokit/rest" "18.5.2"
@@ -1698,7 +1698,7 @@ release-it@^14.5.1:
     inquirer "8.0.0"
     is-ci "3.0.0"
     lodash "4.17.21"
-    mime-types "2.1.29"
+    mime-types "2.1.30"
     ora "5.4.0"
     os-name "4.0.0"
     parse-json "5.2.0"
@@ -1799,7 +1799,7 @@ semver-diff@^3.1.1:
   dependencies:
     semver "^6.3.0"
 
-semver@7.3.5:
+semver@7.3.5, semver@^7.3.4:
   version "7.3.5"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
   integrity sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==
@@ -1810,13 +1810,6 @@ semver@^6.0.0, semver@^6.2.0, semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
-
-semver@^7.3.4:
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
-  integrity sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==
-  dependencies:
-    lru-cache "^6.0.0"
 
 shebang-command@^2.0.0:
   version "2.0.0"

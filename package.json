@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/windicss/gridsome-plugin-windicss#readme",
   "dependencies": {
-    "defu": "^3.2.2",
+    "defu": "^4.0.1",
     "windicss-webpack-plugin": "^0.3.3"
   },
   "devDependencies": {

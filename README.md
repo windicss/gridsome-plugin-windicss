@@ -19,7 +19,7 @@
 - ⚡️ **It's FAST** - 20~100x times faster than [gridsome-plugin-tailwindcss](https://github.com/brandonpittman/gridsome-plugin-tailwindcss)
 - 🧩 On-demand CSS utilities (Compatible with Tailwind CSS v2) and native elements style resetting
 - 🍃 Load configurations from `tailwind.config.js`
-- 📄 CSS `@apply` / `@screen` directives transforms
+- 📄 Use `@apply` / `@screen` directives in any file: Vue SFC, Less, SCSS, SASS, PostCSS, Stylus
 - 🎳 Support Utility Groups - e.g. `bg-gray-200 hover:(bg-gray-100 text-red-300)`
 
 ## Install
@@ -84,12 +84,9 @@ export default {
       '.git',
       'dist',
       '.cache',
-      '*.template.html',
-      'app.html'
+      '.temp',
     ],
-    include: []
   },
-  transformCSS: 'pre',
   preflight: {
     alias: {
       // add gridsome aliases

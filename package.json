@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-windicss",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Windi CSS for Gridsome",
   "main": "gridsome.server.js",
   "files": [
@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/windicss/gridsome-plugin-windicss#readme",
   "dependencies": {
-    "defu": "^3.2.2",
-    "windicss-webpack-plugin": "^0.2.6"
+    "defu": "^4.0.1",
+    "windicss-webpack-plugin": "^0.5.0"
   },
   "devDependencies": {
     "dotenv-cli": "^4.0.0",
-    "release-it": "^14.5.0"
+    "release-it": "^14.6.1"
   }
 }

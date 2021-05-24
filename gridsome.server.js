@@ -10,12 +10,9 @@ function WindiPlugin(api, options) {
         'dist',
         '.cache',
         '.temp',
-        '*.template.html',
-        'app.html'
       ],
       include: []
     },
-    transformCSS: 'pre',
     preflight: {
       alias: {
         // add gridsome aliases

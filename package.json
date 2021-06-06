@@ -28,7 +28,7 @@
   "homepage": "https://github.com/windicss/gridsome-plugin-windicss#readme",
   "dependencies": {
     "defu": "^4.0.1",
-    "windicss-webpack-plugin": "^0.6.1"
+    "windicss-webpack-plugin": "^1.0.0"
   },
   "devDependencies": {
     "dotenv-cli": "^4.0.0",

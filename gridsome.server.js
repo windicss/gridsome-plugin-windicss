@@ -26,7 +26,7 @@ function WindiPlugin(api, options) {
 
   const config = merge(options, defaultConfig)
 
-  const WebpackWindiCSSPlugin = require('windicss-webpack-plugin').default
+  const WebpackWindiCSSPlugin = require('windicss-webpack-plugin')
 
   api.chainWebpack((webpack) => {
     webpack.plugin('windicss').use(WebpackWindiCSSPlugin, [config])

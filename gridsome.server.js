@@ -22,7 +22,7 @@ function WindiPlugin(api, options) {
     }
   }
 
-  const merge = require('defu').arrayFn
+  const merge = require('defu').defuArrayFn
 
   const config = merge(options, defaultConfig)
 
